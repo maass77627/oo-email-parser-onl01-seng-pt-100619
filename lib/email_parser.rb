@@ -11,7 +11,7 @@ class EmailParser
     @emails = emails  
   end 
   
-  def parse 
+  def self.parse(CSV_DATA) 
     @emails.split(',',' ').unique 
    end 
    
