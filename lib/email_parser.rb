@@ -14,7 +14,9 @@ class EmailParser
   end 
   
   def parse 
-   @emails.split(',',' ').unique 
-   @@email_addresses << 
+    @emails.split(',',' ').unique 
+   end 
+   
+ end 
     
     
