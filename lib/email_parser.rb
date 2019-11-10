@@ -15,7 +15,7 @@ class EmailAddressParser
     emails = email_addresses.split(/,| /)
     emails.reject {|email| email == ""}.uniq
   end
-   end 
+    
    
  end 
     
